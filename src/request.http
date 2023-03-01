@@ -1,0 +1,19 @@
+POST http://localhost:3001/books
+content-type: application/json
+
+{
+  "title": "O Hobbit",
+  "content": "Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta.",
+  "username": "Tobias Bastien"
+}
+
+###
+
+DELETE http://localhost:3001/books/63f4db89eb38f173e9d00c16
+content-type: application/json
+
+###
+
+DELETE http://localhost:3001/books/30
+content-type: application/json
+
