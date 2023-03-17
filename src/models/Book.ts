@@ -10,4 +10,3 @@ const bookSchema = new mongoose.Schema(
 );
 
 export const books = mongoose.model('books', bookSchema)
-

@@ -1,5 +1,6 @@
-import { app } from "./src/App.js";
-import { db } from "./dbConnect.js";
+import { app } from "./src/App";
+import { db } from "./dbConnect";
+
 const port = process.env.PORT || 3001;
 
 // Iniciando o servidor backend
